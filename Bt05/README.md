@@ -92,7 +92,8 @@ Chương trình hiển thị danh sách sinh viên đạt điểm từ 7 trở l
 
 ### Hình 1: Kết quả chạy chương trình trên Terminal
 
-<img width="294" height="267" alt="image" src="https://github.com/user-attachments/assets/5f5503bb-d133-4b19-910f-c5abc54a9c6a" />
+<img width="310" height="270" alt="image" src="https://github.com/user-attachments/assets/cc7a987f-a7b9-4e15-947e-d2d989aa7334" />
+
 
 
 Kết quả thu được:
