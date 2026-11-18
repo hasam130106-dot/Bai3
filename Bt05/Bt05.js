@@ -10,7 +10,7 @@ async function chayBai05() {
        const noiLuu = mayChu.db('qlsinhvien');
         const bangSV = noiLuu.collection('students');
 
-        console.log('\n========== KẾT QUẢ TÌM KIẾM ==========\n');
+        console.log('\n KẾT QUẢ TÌM KIẾM =\n');
 
         // Lấy sinh viên có điểm từ 7 trở lên
         const ketQua = await bangSV.find({
@@ -34,7 +34,7 @@ async function chayBai05() {
         const maCanSua = 'SV001';
         const diemThayDoi = 8.5;
 
-        console.log('\n========== THAY ĐỔI ĐIỂM ==========');
+        console.log('\n THAY ĐỔI ĐIỂM ');
 
         const sua = await bangSV.updateOne(
             { masv: maCanSua },
@@ -53,7 +53,7 @@ async function chayBai05() {
         }
 
         // Đọc lại dữ liệu trong MongoDB
-        console.log('\n========== DỮ LIỆU MỚI ==========');
+        console.log('\nDỮ LIỆU MỚI ');
 
         const duLieuMoi = await bangSV.findOne({
             masv: maCanSua
@@ -65,7 +65,7 @@ async function chayBai05() {
             }
         }
 
-        console.log('\n========== HOÀN THÀNH ==========');
+        console.log('\n HOÀN THÀNH ');
 
     } catch (err) {
         console.log('Lỗi chương trình:', err.message);
